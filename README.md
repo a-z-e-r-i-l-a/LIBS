@@ -14,8 +14,9 @@ therefore is the the safest to look at. It also shows the ratio of that promissi
 
 - An example of measurement analysis of a sample's surface is shown below. This measurement is only for thickness analysis. On each point of the surface about 200 femtosecond laser pulse is emitted and for each a spectrum is saved. Each pulse evaporates a layer of the surface 
 and makes a plasma light whose color depends on the material elements.
-The script checks at which laser pulse the the peaks from the core material (under the coating) come up. This illustrates the thickness of the coating on the surface, a distribution of which is shown below.
-<img src="examples/ThicknessMapNiCuGalvanized.png" alt="Automatic spectrum analysis">
+The script checks at which laser pulse the the peaks from the core material (under the coating) come up.
+ This illustrates the thickness of the coating (Here Nickle) on the surface (Copper core), a distribution of which is shown below.
+<img src="examples/Thickness Map NiCuGalvanized.png" alt="Automatic spectrum analysis">
 
 - The following image is an example of a single laser pulse measurement on a surface. This spectrum comes from the plasma light which represents a finger-print of a material element.
 <img src="examples/1_Pink_Side_30th Pulse_150amp.png" alt="Automatic spectrum analysis">
