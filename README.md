@@ -1,6 +1,6 @@
 # LIBS-Projects
 
-This repository represents an earlier work of the author in analysis of laser-induced-plasma-breackdown-spectroscopy (LIBS) experiments during employement at Fraunhofer IPM. The followings are examples of some of the implemented tools and domestic database analysis. 
+This repository represents an earlier work of the author (2017/18) in analysis of laser-induced-plasma-breackdown-spectroscopy (LIBS) experiments during employement at Fraunhofer IPM. The followings are examples of some of the implemented tools and domestic database analysis. 
 
 - The following image shows an analysis of a domestic measured database of different material elements. It shows to measure a material_1 from the horizontal axis in a sample which has the material_2 from the vertical axis, what portion of the peaks from the material_1 interfere 
 with the peaks of the material_2. It then shows the highest intensity wavelength for material_1 that does not interfere with material_2 and 
@@ -12,8 +12,9 @@ therefore is the the safest to look at. It also shows the ratio of that promissi
 <img src="examples/saar analysis.png" alt="Automatic spectrum analysis">
 
 
-- An example of measurement analysis of a sample's surface. On each point of the surface about 200 laser pulse is emitted and for each a spectrum is saved. 
-The script checks at which laser pulse the the peaks from the core material (under the coating) comes up. This illustrates the thickness of the coating on the surface, a distribution of which is shown below.
+- An example of measurement analysis of a sample's surface is shown below. This measurement is only for thickness analysis. On each point of the surface about 200 femtosecond laser pulse is emitted and for each a spectrum is saved. Each pulse evaporates a layer of the surface 
+and makes a plasma light whose color depends on the material elements.
+The script checks at which laser pulse the the peaks from the core material (under the coating) come up. This illustrates the thickness of the coating on the surface, a distribution of which is shown below.
 <img src="examples/ThicknessMapNiCuGalvanized.png" alt="Automatic spectrum analysis">
 
 - The following image is an example of a single laser pulse measurement on a surface. This spectrum comes from the plasma light which represents a finger-print of a material element.
