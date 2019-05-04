@@ -1,4 +1,4 @@
-# LIBS-Project
+# LIBS Project
 
 This repository represents an earlier work of the author (2017/18) in analysis of laser-induced-plasma-breackdown-spectroscopy (LIBS) experiments during employement at Fraunhofer IPM. The followings are examples of some of the implemented tools and domestic database analysis. 
 
@@ -26,6 +26,7 @@ The following image is an automatic spectrum analysis of one measurement. Peaks'
 - The left table illustrates the peaks' wavelength and their pixel position on the spectroscope line camera. (wavelength:pixel).
 - The right table, for each peak wavelength, shows in which materials that peak exists, and shows also the intensity of that peak if the sample was purely coming from that material. (sorted from left to right)
 - The middle table shows the fraction of peaks of the remarked material found in the sample spectrum.  (material| observed fraction of peaks from database: fraction of peaks in the sample belonging to this material.)
+- The plots show the original measured spectrum on top which has a background spectrum in addition which is removed with [this algorithm](https://zanran_storage.s3.amazonaws.com/www.science.uva.nl/ContentPages/443199618.pdf). The below plot is the spectrum without the background.
 In this example: it can be seen confidently that the sample has Titanium.
 <img src="examples/Ti_example.jpg" alt="Automatic spectrum analysis">
 
@@ -54,7 +55,9 @@ This is done by the below function in the source code:
 	- Positive: the degree to which values below the baseline is not allowed.
 	- niteration: numbers of iterations needed for convergence of this algorithm. 
 
-For more information regarding the baseline removal algorithm visit: https://zanran_storage.s3.amazonaws.com/www.science.uva.nl/ContentPages/443199618.pdf
+For more information regarding the baseline removal algorithm refer to [this paper](https://zanran_storage.s3.amazonaws.com/www.science.uva.nl/ContentPages/443199618.pdf): 
+
+
 In the output of this function the information about the peaks of the materials in the database such as their pixels, intensities and wavelengths are given.
 Afterwards, for the samples also the background is removed with the same parameters as above which are given as an input of the main function:
 <img src="examples/jupyter example_3.png" alt="Automatic spectrum analysis">
