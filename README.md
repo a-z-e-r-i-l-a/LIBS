@@ -8,6 +8,8 @@ therefore is the the safest to look at. It also shows the ratio of that promissi
 
 <img src="examples/270_540_Best wavelengths for LIBS fs.jpg" alt="Automatic spectrum analysis">
 
+- The following heatmap image is regarding a number of samples (noted in the horizontal axis) for which the percentage of present peaks from the elements of vertical axis) is shown.
+<img src="examples/saar analysis.png" alt="Automatic spectrum analysis">
 
 The following image is an automatic spectrum analysis of one measurement. Peaks' annotation is sorted by their intensity. (Peak number 1 has the highest intensity in the spectrum)
 - The left table illustrates the peaks' wavelength and their pixel position on the spectroscope line camera. (wavelength:pixel).
