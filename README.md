@@ -18,16 +18,16 @@ In this example: it can be seen confidently that the sample has Titanium.
 
 
 
-* For making the above diagram the "makePlots_FullInfo_InSubfolders" function from the LIBS_LIB.py is used.
+#### For making the above diagram the "makePlots_FullInfo_InSubfolders" function from the LIBS_LIB.py is used.
 <img src="examples/jupyter example_1.png" alt="Automatic spectrum analysis">
 
 
 After execution is finished, in each subfolder two folders are created which include the image plots and CSV files of the calculated information.
-* Updating the reference database
+#### Updating the reference database
 The spectra from new materials can be added in the below location to be also taken into comparison while running the above function:
 \\XXX\Automatic libs sample analysis with database
 In addition, if a better spectrum for a pure material is available, with less noise or less background, after deleting the old version of that spectrum from the above folder, the new one can be replaced inside it.
-* Working principle of the algorithm
+#### Working principle of the algorithm
 
 Initially, the algorithm removes the background under the spectra of the materials in the database to be able to find the peaks in it.
 This is done by the below function in the source code:
@@ -49,14 +49,14 @@ Afterwards, for the samples also the background is removed with the same paramet
 The ___peak_threshold__ parameter here also is the threshold above which peaks will be saved for comparison with the peaks of the database.
 If __parameter pixelshift__ is 1, the algorithm will check if a peak from the sample exists in a material with one pixel right or left. If 0 is given, pixel shift is not allowed.
 dpi, is the quality for the plots images which will be saved. Decreasing this value can increase the speed for calculation.
-* A fast way to find optimal background removal parameters
+#### A fast way to find optimal background removal parameters
 
 One way to play with the parameters regarding the background removal and visually see which ones are better for a special case, is running the following cell which is also in **LIBS spectra analysis with database.ipynb** notebook.
  
 The location of the folder which includes the text file of the spectrum to be played along with baseline parameters should be copied similarly in the “location” in the above code.
 <img src="examples/jupyter example_4.png" alt="Automatic spectrum analysis">
 
-* Remarks
+#### Remarks
 
 This python function is for now only usable for the two Avantes spectrometer and not others.
 
