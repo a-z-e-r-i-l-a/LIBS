@@ -68,6 +68,11 @@ This python function is for now only usable for the two Avantes spectrometer and
 
 
 # More information about the project:
-https://www.ipm.fraunhofer.de/content/dam/ipm/en/PDFs/product-information/PK/OOA/ANALIZEsingle-coating-thickness-analysis.pdf
-https://www.ipm.fraunhofer.de/content/dam/ipm/en/PDFs/product-information/PK/OOA/ANALIZEmulti-coating-analysis.pdf
+
+* [ANALIZEsingle: Fast, precise coating thickness measurement and element analysis](https://www.ipm.fraunhofer.de/content/dam/ipm/en/PDFs/product-information/PK/OOA/ANALIZEsingle-coating-thickness-analysis.pdf)
+
+* [ANALIZEmulti: analyzing coatings in three dimensions](https://www.ipm.fraunhofer.de/content/dam/ipm/en/PDFs/product-information/PK/OOA/ANALIZEmulti-coating-analysis.pdf)
+
+* [Rapid materials analysis of surfaces and coatings](
 https://www.ipm.fraunhofer.de/en/bu/production-control-inline-measurement-techniques/expertise/laser-induced-breakdown-spectroscopy.html
+)
