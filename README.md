@@ -1,6 +1,6 @@
 # LIBS-Projects
 
-This repository represents an earlier work of the author in analysis of laser-induced-plasma-breackdown (LIBS) experiments during employement at Fraunhofer IPM. The following are examples of a domestic database analysis. 
+This repository represents an earlier work of the author in analysis of laser-induced-plasma-breackdown (LIBS) experiments during employement at Fraunhofer IPM. The followings are examples of some of the implemented tools and domestic database analysis. 
 
 - The following image shows an analysis of a domestic measured database of different material elements. It shows to measure a material_1 from the horizontal axis in a sample which has the material_2 from the vertical axis, what portion of the peaks from the material_1 interfere 
 with the peaks of the material_2. It then shows the highest intensity wavelength for material_1 that does not interfere with material_2 and 
