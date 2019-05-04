@@ -1,4 +1,4 @@
-# LIBS-Projects
+# LIBS-Project
 
 This repository represents an earlier work of the author (2017/18) in analysis of laser-induced-plasma-breackdown-spectroscopy (LIBS) experiments during employement at Fraunhofer IPM. The followings are examples of some of the implemented tools and domestic database analysis. 
 
