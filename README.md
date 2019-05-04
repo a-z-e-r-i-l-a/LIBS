@@ -4,7 +4,8 @@ This repository represents an earlier work of the author (2017/18) in analysis o
 
 - The following image shows an analysis of a domestic measured database of different material elements. It shows to measure a material_1 from the horizontal axis in a sample which has the material_2 from the vertical axis, what portion of the peaks from the material_1 interfere 
 with the peaks of the material_2. It then shows the highest intensity wavelength for material_1 that does not interfere with material_2 and 
-therefore is the the safest to look at. It also shows the ratio of that promissing peak over the highest peak which represents material_1.
+therefore is the the safest to look at. It also shows the ratio of that promissing peak over the highest peak which represents material_1. An Unsupervised learning approach with Keras was later implemented to find spectra filters that
+are least sensitive to the interference among different material peaks. This approach can take a prior assumption beside the database and infer what material exists in a given sample.
 
 <img src="examples/270_540_Best wavelengths for LIBS fs.jpg" alt="Automatic spectrum analysis">
 
@@ -19,7 +20,7 @@ The script checks at which laser pulse the the peaks from the core material (und
 <img src="examples/Thickness Map NiCuGalvanized.png" alt="Automatic spectrum analysis">
 
 - The following image is an example of a single laser pulse measurement on a surface. This spectrum comes from the plasma light which represents a finger-print of a material element.
-<img src="examples/1_Pink_Side_30th Pulse_150amp.png" alt="Automatic spectrum analysis">
+<img src="examples/1 Pink_Side_30th Pulse_150amp.png" alt="Automatic spectrum analysis">
 
 
 The following image is an automatic spectrum analysis of one measurement. Peaks' annotation is sorted by their intensity. (Peak number 1 has the highest intensity in the spectrum)
